@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+}
+
+body > div {
+    display: flex;
+    padding: 20px 100px;
+}
+
+.header {
+    flex: 0 0 auto;
+    justify-content: space-between;
+}
+
+.header,
+.content-1, 
+.footer {
+    background-color: #1F2937;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 700;
+}
+
+.secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.content-1-left {
+    display: flex;
+    flex-flow: column wrap;
+    flex: 1 1 50%;
+}
+
+.lightning-img {
+    display: flex;
+    flex: 1 1 50%;
+    
+    width: 600px;
+    height: auto;
+}
+
+.content-3 {
+    background-color: #E5E7EB;
+    flex-direction: column;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 10px;
+}
+
+.main-text {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+button {
+    background-color: #3882f6;
+    border-radius: 10px;
+    padding: 5px 20px;
+    color: #F9FAF8;
+    font-size: 18px;
+    border-width: 0;
+}
+
+.image-text-subcontainer > img {
+
+}
+.content-2 {
+
+}
