@@ -150,3 +150,9 @@ button {
     border: 2px solid #F9FAF8;
     flex-shrink: 0;
 }
+
+.footer {
+    font-size: 18px;
+    color: #F9FAF8;
+    justify-content: center;
+}
