@@ -113,16 +113,20 @@ button {
 
 
 .image-text-subcontainer {
+    display: flex;
+    flex-direction: column;
     max-width: 200px;
     color: #1F2937;
     font-size: 18px;
+    align-items: center;
+    text-align: center;
 }
 
 .image-text-subcontainer > img {
     width: 100px;
     height: 100px;
-    border: 2px solid 3882f6;
     border-radius: 10px;
+    flex-grow: 1;
 }
 
 .content-3 {
