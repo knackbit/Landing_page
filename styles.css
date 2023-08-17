@@ -38,6 +38,7 @@ body > div {
 .content-1 {
     flex: 1 1 auto;
     gap: 15px;
+    align-items: center;
 }
 
 .content-1-left {
@@ -97,8 +98,13 @@ button {
 
 .content-2 {
     flex-direction: column;
+    flex: 1 1 0;
 }
 
+.info-header {
+    font-size: 36px;
+    font-weight: 900;
+}
 .image-text-container {
     display: flex;
     justify-content: center;
@@ -119,6 +125,11 @@ button {
     border-radius: 10px;
 }
 
-.content-2 {
+.content-3 {
+    padding: 60px 150px;
+    flex: 1 1 20vh;
+}
 
+.quote-sign {
+    align-self: flex-end;
 }
